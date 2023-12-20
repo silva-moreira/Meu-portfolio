@@ -8,7 +8,7 @@
 
     /* ======= CORES ======*/
 
-    --hue-color: 250; /* roxo 250 - Verde 142 - Azul 230 - Rosa 340 /*
+    --hue-color: 485; /* roxo 250 - Verde 142 - Azul 230 - Rosa 340 /*
 
     /* HSL CORES*/
 
@@ -500,31 +500,27 @@ img{
 }
 
 .skills__css{
-    width: 60%;
+    width: 40%;
 }
 
 .skills__js{
-    width: 60%;
+    width: 30%;
 }
 
 .skills__react{
-    width: 40%;
+    width: 25%;
 }
 
 
 .skills__php{
-    width: 80%;
-}
-
-.skills__node{
-    width: 70%;
+    width: 50%;
 }
 
 .skills__firebase{
-    width: 90%;
+    width: 50%;
 }
 
-.skills__python{
+.skills__Csharp{
     width: 55%;
 }
 
@@ -533,12 +529,8 @@ img{
     width: 60%;
 }
 
-.skills__sketch{
-    width: 25%;
-}
-
 .skills__photoshop{
-    width: 30%;
+    width: 60%;
 }
 
 .skills__close .skills__list{
