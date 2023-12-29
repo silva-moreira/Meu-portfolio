@@ -135,7 +135,7 @@ themeButton.addEventListener('click', () => {
 })
 
 /* ================ SCROLL SECTIONS ACTIVE LINK ================ */ 
-let swiper = new Swiper(".portfolio__container", {
+let swiper = new Swiper(".mySwiper", {
     cssMode: true,
     loop: true,
 
@@ -147,4 +147,4 @@ let swiper = new Swiper(".portfolio__container", {
       el: ".swiper-pagination",
       clickable: true,
     },
-  });SS
+  });

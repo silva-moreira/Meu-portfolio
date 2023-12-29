@@ -8,7 +8,7 @@
 
     /* ======= CORES ======*/
 
-    --hue-color: 485; /* roxo 250 - Verde 142 - Azul 230 - Rosa 340 /*
+    --hue-color: 230; /* roxo 250 - Verde 142 - Azul 230 - Rosa 340 /*
 
     /* HSL CORES*/
 
@@ -587,6 +587,7 @@ img{
     margin-bottom: var(--mb-1);
 }
 
+
 .qualification__calendar{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
@@ -628,41 +629,39 @@ img{
     padding: 0 1.5rem;
 }
 
+
+
 .portfolio__img{
     width: 265px;
     border-radius: .5rem;
-    justify-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 .portfolio__title{
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio__description{
     margin-bottom: var(--mb-0-75);
+    
 }
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after{
-    content: '';
-}
-
-.swiper-portfolio-icon{
-    font-size: 2rem;
-    color: var(--first-color);
-}
-
 .swiper-button-prev{
-    left: -.5rem;
+    left: 2rem;
 }
 
 .swiper-button-next{
-    right: -.5rem;
+    right: 2rem;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{

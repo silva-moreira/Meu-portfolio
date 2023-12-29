@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!--=================== SWIPER CSS===================================-->   
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> 
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css"> 
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
  
     <title>Portfólio João Vitor</title>
 </head>
@@ -313,6 +314,11 @@
                         <i class="uil uil-briefcase-alt qualification__icon"></i>
                         Trabalho
                     </div>
+
+                    <div class="qualification__button button--flex" data-target="#certificados">
+                        <i class="uil uil-books qualification__icon"></i>
+                        Certificados
+                    </div>
                 </div>
 
                 <div class="qualification__sections">
@@ -355,8 +361,6 @@
                         </div>
                     </div>
                        
-                        
-
                     <!--======== QUALIFICAÇÃO CONTAINER 2=========-->
                     <div class="qualification__content" data-content id="work">
                         <!--======== QUALIFICAÇÃO 1=========-->
@@ -411,23 +415,88 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--======== QUALIFICAÇÃO CONTAINER 3=========-->
+                    <div class="qualification__content" data-content id="certificados">
+                        <!--======== QUALIFICAÇÃO 1=========-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">C# Completo - Programação Orientada a Objeto</h3>
+                                <span class="qualification__subtitle">Udemy</span>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>                             
+                                <span class="qualification__line"></span> 
+                            </div>
+                        </div>
+
+                        <!--QUALIFICAÇÃO 2-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="qualification__title">SC-900 MICROSOFT</h3>
+                                <span class="qualification__subtitle">Fundação FAT</span>
+                                <div class="qualification__calendar">
+                                </div>
+                            </div>
+                        </div>
+                        <!--QUALIFICAÇÃO 3-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title"> .NET Developer</h3>
+                                <span class="qualification__subtitle">DIO</span>
+                                <div class="qualification__calendar">
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>                             
+                                <span class="qualification__line"></span> 
+                            </div>
+                        </div>
+                        <!--QUALIFICAÇÃO 4-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="qualification__title">Formação Angular Developer</h3>
+                                <span class="qualification__subtitle">DIO</span>
+                                <div class="qualification__calendar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
         <!--=================== PORTFOLIO ===================================-->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section_title">< Projetos ></h2>
+            <h2 class="section_title">Projetos</h2>
             <span class="section_subtitle">Projetos mais recentes</span>
 
-            <div class="portfolio__container container swiper-container">
+            <div class="portfolio__container container swiper mySwiper">
                 <div class="swiper-wrapper">
-
                     <!-- ============= PORTFOLIO 1 =========== -->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/Portfolio.png" alt="" class="portfolio__img">
-
+                        <br><br><br><br><br> 
                         <div class="portfolio__data">
+                            
                             <h3 class="portfolio__title">Meu Portfolio</h3>
+                            
                             <p class="portfolio__description"> Criado com HTML, CSS e JavaScript puros, com a intenção de aprimorar meus 
                                 conhecimentos e expandir minha carreira profissional.
                             </p>
@@ -440,7 +509,7 @@
                     <!-- ============= PORTFOLIO 2 =========== -->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/Portfolio2.png" alt="" class="portfolio__img">
-
+                        <br><br><br><br><br>
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Pokedex</h3>
                             <p class="portfolio__description">Desenvolvida com o propósito de aprimorar meus conhecimentos em APIs.</p>
@@ -453,7 +522,7 @@
                     <!-- ============= PORTFOLIO 3 =========== -->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/Portfolio3.png" alt="" class="portfolio__img">
-
+                        <br><br><br><br><br>
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">DoadorRP</h3>
                             <p class="portfolio__description">
@@ -465,28 +534,27 @@
                             </a>
                         </div>
                     </div>
-                
-
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i> 
-                    </div>
-
-                    <div class="swiper-pagination"></div> 
-                </div>  
-            </div>
+         
+                </div>
+                <div class="swiper-button-next">
+                    
+                </div>
+                <div class="swiper-button-prev">
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
     </section>
         <!--=================== PROJETO EM MENTE ===================================-->
         <section class="project section">
             <div class="project__bg">
                 <div class="project__container container grid">
                     <div class="project__data">
-                        <h2 class="project__title">Alguma duvida?</h2>
-                        <p class="project__description">Fique à vontade para entrar em contato comigo caso tenha alguma dúvida!</p>
+                        <h2 class="project__title">Vamos trabalhar juntos?</h2>
+                        <p class="project__description">Estou pronto para enfrentar desafios e aprender, 
+                            e estou ansioso para discutir como posso agregar valor ao seu projeto ou empresa.</p>
                         <a href="https://wa.me/5516992783328" class="button button--flex button--white">
-                            Fale comigo  
+                            Vamos la!
                             <i class="uil uil-message project__icon button__icon"></i>
                         </a>
                         <br><br>
@@ -555,7 +623,8 @@
 
 
     <!--=================== SWIPER JS ===================================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
     <!--=================== MAIN JS ===================================-->
     <script src="assets/js/main.js"></script>
