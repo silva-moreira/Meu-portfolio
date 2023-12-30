@@ -92,7 +92,7 @@ body.dark-theme{
 }
 
 .change-theme{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
     cursor: pointer;
@@ -643,9 +643,8 @@ img{
 .portfolio__title{
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+    
 }
 
 .portfolio__description{
@@ -656,12 +655,22 @@ img{
     transform: translateX(.25rem);
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: '';
+}
+
+.swiper-portfolio-icon{
+    font-size: 2rem;
+    color: var(--first-color)
+}
+
 .swiper-button-prev{
-    left: 2rem;
+    left: -.5rem;
 }
 
 .swiper-button-next{
-    right: 2rem;
+    right: -.5rem;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
