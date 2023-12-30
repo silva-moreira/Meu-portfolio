@@ -33,13 +33,15 @@
   z-index: 1;
 }
 .swiper {
-  
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  
- 
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
   /* Fix of Webkit flickering */
-  
-  
+  z-index: 1;
+  display: block;
 }
 .swiper-vertical > .swiper-wrapper {
   flex-direction: column;
@@ -306,7 +308,7 @@
   display: none;
 }
 /* Navigation font start */
-/*.swiper-button-prev:after,
+.swiper-button-prev:after,
 .swiper-button-next:after {
   font-family: swiper-icons;
   font-size: var(--swiper-navigation-size);
@@ -315,12 +317,10 @@
   font-variant: initial;
   line-height: 1;
 }
-
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-  content: '';
+  content: 'prev';
 }
-*/
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
   right: var(--swiper-navigation-sides-offset, 10px);
@@ -328,7 +328,7 @@
 }
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-  content: '';
+  content: 'next';
 }
 /* Navigation font end */
 :root {
